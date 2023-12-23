@@ -5,13 +5,6 @@ terraform {
       source = "hashicorp/aws"
     }
   }
-  backend "s3" {
-    bucket = "for2.c456"
-    key    = "dev/terraform.tfstate"
-    region = "us-east-1"
-    # acl = "private"
-    dynamodb_table = "tesd"
-  }
 }
 
 provider "aws" {
