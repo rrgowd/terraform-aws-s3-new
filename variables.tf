@@ -4,3 +4,4 @@ variable "bucket_name" {
   tags = {
     Name = "My-Bucket"
 }
+}
