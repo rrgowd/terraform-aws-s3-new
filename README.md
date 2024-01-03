@@ -1,1 +1,1 @@
-# terraform-aws-s3-new
+Terraform s3 basic module for create new bucket sample.
